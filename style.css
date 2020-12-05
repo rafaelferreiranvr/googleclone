@@ -259,6 +259,18 @@ a:visited {
     
 }
 
+@media screen and (max-width: 477px) {
+    #comopesquisa {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    #fileira2 {
+        display: none;
+    }
+}
+
 @media screen and (max-height: 420px) {
     #rodape {
         position: relative;
@@ -266,4 +278,6 @@ a:visited {
         overflow-y: hidden;
     }
 }
+
+
 
